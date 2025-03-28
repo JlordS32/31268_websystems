@@ -355,3 +355,51 @@ footer .container h3 {
 .future-experience p {
    margin-top: 2rem;
 }
+
+/* COMMENTS PAGE */
+
+.comments {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.comments h3 {
+   margin-bottom: 1rem;
+}
+
+.comments .layout {
+   display: flex;
+   flex-direction: column;
+}
+
+.table-layout {
+   margin: 2rem 10rem;
+   padding: 0 10rem;
+   text-align: center;
+   border: 1px rgb(225, 78, 78) solid;
+   background-color: rgb(36, 36, 36);
+}
+
+.layout-header {
+   padding: 1rem;
+   border: 1px rgb(225, 78, 78) solid;
+   background-color: rgb(31, 31, 31);}
+
+.layout-main {
+   height: 200px;
+   background-color: rgb(21, 21, 21);
+}
+
+.layout-footer {
+   background-color: rgb(31, 31, 31);
+}
+
+.table-layout td {
+   border: 1px rgb(225, 78, 78) solid;
+   padding: 1rem;
+}
+
+.comments .structure li {
+   
+}
