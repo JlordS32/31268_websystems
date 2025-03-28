@@ -362,10 +362,17 @@ footer .container h3 {
    display: flex;
    flex-direction: column;
    gap: 2rem;
+   margin-bottom: 10rem;
 }
 
-.comments h3 {
+.comments section {
    margin-bottom: 1rem;
+}
+
+.comments section > h3 {
+   margin-bottom: 1rem;
+   padding-bottom: 1rem;
+   border-bottom: rgb(225, 78, 78) 1px solid;
 }
 
 .comments .layout {
@@ -413,7 +420,7 @@ section.color-palette .palette {
 }
 
 section.color-palette p {
-   margin: 1.5rem 0;
+   margin-top: 1.5rem;
 }
 
 section.color-palette .palette .colours {
@@ -423,4 +430,8 @@ section.color-palette .palette .colours {
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+section.design a {
+   color:rgb(225, 78, 78);
 }
