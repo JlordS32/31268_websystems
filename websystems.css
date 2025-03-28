@@ -326,7 +326,7 @@ footer .container h3 {
    text-align: right;
 }
 
-.past-experience .timeline:nth-child(odd) .heading::before, 
+.past-experience .timeline:nth-child(odd) .heading::before,
 .past-experience .timeline:nth-child(even) .heading::before {
    content: "";
    position: absolute;
@@ -384,7 +384,8 @@ footer .container h3 {
 .layout-header {
    padding: 1rem;
    border: 1px rgb(225, 78, 78) solid;
-   background-color: rgb(31, 31, 31);}
+   background-color: rgb(31, 31, 31);
+}
 
 .layout-main {
    height: 200px;
@@ -400,6 +401,26 @@ footer .container h3 {
    padding: 1rem;
 }
 
-.comments .structure li {
-   
+section.structure ul {
+   text-indent: 2rem;
+   list-style-type: none;
+   margin: 1rem;
+}
+
+section.color-palette .palette {
+   display: flex;
+   gap: 1rem;
+}
+
+section.color-palette p {
+   margin: 1.5rem 0;
+}
+
+section.color-palette .palette .colours {
+   width: 100%;
+   height: 250px;
+   text-transform: uppercase;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
